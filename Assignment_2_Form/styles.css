@@ -1,0 +1,68 @@
+h3, p{
+	text-align: center;
+	color: white;
+  }
+  #container {
+    margin: 30px auto;
+    max-width: 650px;
+    border: solid;
+  }
+  body{
+    background-image: url('background.jpg');
+    background-size: cover;
+  }
+  label{
+    color: white;
+	}
+  input{
+    height: 15px;
+    border-radius: 4px;
+    padding: 12px;       
+  }
+  select{
+      height: 37px;
+      border-radius: 4px;         
+      padding: 10px;
+  } 
+  .tab{       
+    padding-left: 30px;
+  }
+  #id_fname{
+    margin: 10px 0px 0px 86px;
+    width:185px;
+  }
+  #id_mail{
+    margin: 13px 0px 0px 30px;
+    width: 402px;
+  }
+  #id_no{
+    margin: 13px 0px 0px 28px;
+    width: 402px;
+  }
+  #id_gen{
+    margin: 13px 0px 0px 78px;
+    width: 429px;
+  }
+  #id_dob{
+    margin: 13px 0px 0px 39px;
+    width: 402px;
+  }
+  #id_add{
+    width: 185px;
+    margin: 13px 0px 0px 70px;
+  }
+  #id_addd{
+    width: 185px;
+    margin: 13px 0px 0px 133px ;
+  }
+  #id_s{
+    width: 185px;
+  }
+  .button{
+    margin: 13px 0px 15px 133px ;
+    width: 430px;
+    height: 40px;
+    background-color: #4285F4;
+    color: white;
+    border: 0px;
+  }

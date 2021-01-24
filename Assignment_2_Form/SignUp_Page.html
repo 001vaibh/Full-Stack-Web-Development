@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h3>Please Enter Your Details</h3>
+      <p>Fill the application form below and submit.</p>
+      <div class="tab">
+          <form>
+            <label>Name<sup>*</sup></label>
+            <input type="text" id="id_fname" placeholder="First Name" required>
+            <input type="text" id="id_s" placeholder="Last Name" required> 
+            <br>
+            <label>Email Address<sup>*</sup></label>       
+            <input type="email" id="id_mail" placeholder="mail@example.com" required>
+            <br>
+            <label>Phone Number<sup>*</sup></label>
+            <input type="number" id="id_no" placeholder="Phone Number" reqiured>
+            <br>
+            <label>Gender<sup>*</sup></label>
+              <select id="id_gen" required>
+                <option value="Gender">Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Others</option>
+              </select>
+            <br>
+            <label>Citizen<sup>*</sup></label>
+              <select id="id_gen" required>
+                <option>Select Country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Germany</option>
+                <option>Japan</option>
+                <option>Russia</option>
+                <option value="Other">Other</option>
+              </select>
+            <br>
+            <label>Date of Birth<sup>*</sup></label>
+            <input type="date" id="id_dob" required>
+            <br>
+            <label>Address<sup>*</sup></label>
+            <input type="text" id="id_add" placeholder="Street Address">
+            <input type="text" id="id_s" placeholder="Select line 2">
+            <br>
+            <input type="text" id="id_addd" placeholder="Landmark">
+            <input type="text" id="id_s" placeholder="City">
+            <br>
+            <input type="text" id="id_addd" placeholder="State/Province">
+            <input type="text" id="id_s" placeholder="Postal/Zip Code">
+            <br>
+            <input class="button"  type="submit" value="SUBMIT">
+            
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
