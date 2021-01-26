@@ -26,11 +26,11 @@
             <option>B.Sc</option>
         </select> <br>
         Interest:
-        Reading<input type="checkbox" name="interest[]" value="Coding">
+        Reading<input type="checkbox" name="interest[]" value="Reading">
         Poetry<input type="checkbox" name="interest[]" value="Poetry">
         Swimming<input type="checkbox" name="interest[]" value="Swimming">
         Cooking<input type="checkbox" name="interest[]" value="Cooking">
-        Coding<input type="checkbox" name="interest[]" value="Teaching"> <br>
+        Coding<input type="checkbox" name="interest[]" value="Coding"> <br>
         <input type="submit" name="submit" value="SUBMIT">
     </form>
 </body>
