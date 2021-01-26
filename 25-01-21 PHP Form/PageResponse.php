@@ -67,11 +67,9 @@
             echo "<th>$city</th>";
             echo "<th>$course</th>";
             echo "<th>";
-            echo "<ul>";
             foreach ($interest as $int) {
                 echo "<li>$int</li>";
             }
-            echo "</ul";
             echo "</th>";
             echo "</tr>";
             
