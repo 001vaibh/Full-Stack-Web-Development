@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Swapping Paragraphs</title>
+    <style>
+        .p1{
+            color:red
+        }
+        .p2{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <p class="p1">Content of Paragraph 1</p>
+    <p class="p2">Content of Paragraph 2</p>
+    <button onclick = "swapText()">Swap</button>
+    <script>
+        function swapText(){
+            p1 = document.getElementsByClassName('p1')[0];
+            p2 = document.getElementsByClassName('p2')[0];
+            temp = p1.textContent;
+            p1.textContent = p2.textContent;
+            p2.textContent = temp;
+        }
+    </script>
+</body>
+</html>
