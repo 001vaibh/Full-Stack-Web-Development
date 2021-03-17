@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Bulb</title>
+    </head>
+    <body>
+        <h4>Click On the below image to randomly Change picture and click on switch to turn bulb on or off</h4>
+        <img id='anime' src='Luffy.jpg' width='350px' height='300px' onclick="getRandomImage()"><br /><br />
+        <img id='bulb' src='bulb-off.png' width='350' height='300'/>
+        <img id='button' src='button-off.jpg' width='80' height='160' onclick="changeBulb()"/>
+        <script>
+            function getRandomImage(){
+                random_array = ["Luffy.jpg", 'TokyoGhoul.jpg', 'Deku.jpg', 'ErenYeager.jpg']; 
+                var num = Math.floor(Math.random()*(random_array.length));
+                anime = document.getElementById('anime');
+                console.log(num);
+                anime.src = random_array[num];
+            }
+            state = 0;
+            function changeBulb(){
+                bulbState = ['bulb-off.png', 'bulb-on.png'];
+                buttonState = ['button-off.jpg', 'button-on.jpg'];
+                bulb = document.getElementById('bulb');
+                button = document.getElementById('button');
+                if(state == 1)
+                    state = 0;
+                else
+                    state = 1;
+                button.src = buttonState[state];
+                bulb.src = bulbState[state];
+            }
+        </script>
+    </body>
+</html>
