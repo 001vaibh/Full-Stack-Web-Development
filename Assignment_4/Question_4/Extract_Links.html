@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Extracting Links</title>
+    </head>
+    <script>
+        function extractLinks(){
+            links = documnet.getElementByTag('a');
+            var arr = [];
+            for(var i=0; i<links.length(); i++){
+                arr.push(links[i].href);
+            }
+            return arr;
+        }
+    </script>
+</html>
