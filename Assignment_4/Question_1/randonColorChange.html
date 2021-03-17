@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Color Change</title>
+        <style>
+            #circle{
+                border-radius: 50%;
+                background-color: crimson;
+                border: 1px solid black;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+            }
+        </style> 
+    </head>
+    <body>
+        <div id="circle" onclick="getRandomColor()"></div>
+        <script>
+            function getRandomColor(){
+                box = document.getElementById('circle');
+                var letter = '0123456789ABCDE';
+                var color = '#';
+                for(i=0; i<6; i++){
+                    color += letter[Math.floor(Math.random()*16)];
+                }
+                box.style.backgroundColor = color;
+            }
+        </script>
+    </body>
+</html>
